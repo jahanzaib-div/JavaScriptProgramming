@@ -24,10 +24,11 @@ let Number_1 = 235;
 let Number_2 = 23.4;
 console.log(Number_1+Number_2)
 // Boolean
-let x = true
-let y = false
-console.log(x)
-console.log(y)
+let x = 66
+let y = 66
+let z = 23
+console.log(x==y) // return true
+console.log(y==z) // return false
 // object
 
 const person = {name : "abc", age: 23};
@@ -42,5 +43,12 @@ console.log(car)
  const date = new Date("12-09-2023\t")
 
  console.log(date)
+
+
+
+ // typeof operator
+ // The typeof operator returns the type of a variable or an expression:
+ const a =typeof ""
+ console.log(a) 
 
 
